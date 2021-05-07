@@ -1,0 +1,89 @@
+
+.help:hover {
+    background-color: red;
+}
+.rod {
+    height:640px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.disk-wrapper {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disk {    
+    display: flex;
+    z-index:1000;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.disk-1 {
+    background-color: #2C9181;
+}
+
+.disk-2 {
+    background-color: #c5e063;
+}
+
+.disk-3 {
+    background-color: #46351d;
+}
+
+.disk-4 {
+    background-color: #ef476f;
+}
+
+.disk-5 {
+    background-color: #ee5622;
+}
+
+.disk-6 {
+    background-color: #44355b;
+}
+
+.disk-7 {
+    background-color: #ffd166;
+}
+
+.disk-8 {
+    background-color: #e2b4bd;
+}
+
+.disk-9 {
+    background-color: #eca72c;
+}
+
+.disk-10 {
+    background-color: #7bb2d9;
+}
+
+.disk-11 {
+    background-color:lightcoral;
+}
+
+.disk-12 {
+    background-color: lightslategray;
+}
+
+.disk-13 {
+    background-color: lightsteelblue;
+}
+
+.disk-14 {
+    background-color:lightyellow;
+}
+
+.disk-15 {
+    background-color:lightsalmon;
+}
