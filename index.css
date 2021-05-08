@@ -1,6 +1,7 @@
 
-.help:hover {
-    background-color: red;
+a.help {
+    color: inherit;
+    text-decoration:none;
 }
 .rod {
     height:640px;

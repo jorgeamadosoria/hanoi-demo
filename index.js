@@ -12,6 +12,8 @@ function init() {
     $("#reset").click((e) => {
         reset();
     });
+
+    $(() => $('[data-toggle="tooltip"]').tooltip());
 }
 
 function initInteractables() {
