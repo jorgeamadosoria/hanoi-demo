@@ -163,7 +163,12 @@ function reset(){
     rods[0] = false;
     $(".rod").empty();
     $("#move").val(0);
-    const disks = parseInt($("#disks").val());
+    const regex = new RegExp('^([1-9]|10)$');
+
+    var disks = $("#disks").val();
+    disks = regex.test(disks)?parseInt(disks):5; 
+    $("#disks").val(disks);
+
     $("#optimal").val(Math.pow(2,disks)-1);
     for (var i = 1;i <= disks;i++) 
         $("#1.rod").append(createDisk(i,disks));

@@ -9,7 +9,7 @@ a.help {
     text-decoration:none;
 }
 .rod {
-    height:640px;
+    height:400px;
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
@@ -28,8 +28,8 @@ a.help {
     align-items: center;
     justify-content: center;
     height: 30px;
-    border-radius: 25px;
-    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
     width: 100%;
     border: 1px solid black;
 }
